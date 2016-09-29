@@ -1,0 +1,28 @@
+{
+  "name": "test-your-login-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klamping/test-your-login-sample.git"
+  },
+  "keywords": [
+    "WebdriverIO"
+  ],
+  "author": "Kevin Lamping",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klamping/test-your-login-sample/issues"
+  },
+  "homepage": "https://github.com/klamping/test-your-login-sample#readme",
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.4.3",
+    "wdio-selenium-standalone-service": "0.0.7",
+    "wdio-spec-reporter": "0.0.3",
+    "webdriverio": "^4.2.16"
+  }
+}
