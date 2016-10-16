@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "http-server src",
     "test": "wdio"
   },
   "repository": {
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/klamping/test-your-login-sample#readme",
   "devDependencies": {
+    "http-server": "^0.9.0",
     "wdio-mocha-framework": "^0.4.3",
     "wdio-selenium-standalone-service": "0.0.7",
     "wdio-spec-reporter": "0.0.3",
