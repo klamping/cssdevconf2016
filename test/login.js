@@ -16,4 +16,4 @@ client
     .getTitle().then(function(title) {
         console.log('Title is: ' + title);
     })
-    .end()
+    .end();
